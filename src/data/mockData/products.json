@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "T-Shirt", "price": 20, "description": "Lorem ipsum dollar site amet" },
+  { "id": 2, "name": "T-Shirt", "price": 100, "description": "Lorem ipsum dollar site amet" },
+  { "id": 3, "name": "T-Shirt", "price": 100, "description": "Lorem ipsum dollar site amet" }
+]
