@@ -23,6 +23,7 @@
             <input type="submit" value="Subscribe Newsletter">
           </form>
         </div>
+        <hr />
         <div class="col-12 copyright text-center">
           <p>copyright @ 2022</p>
         </div>

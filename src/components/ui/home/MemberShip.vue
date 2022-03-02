@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2>GET <span>UPDATED</span></h2>
+          <h2>GET <span>UPDATES</span></h2>
           <p>Lorem ipsum dolor sit amet. Et fuga ipsa ea architecto animi quo dolor repellat est laboriosam reprehenderit vel illo quidem in nihil itaque. </p>
              <p>Lorem ipsum dolor sit amet. Et fuga ipsa ea architecto animi quo dolor repellat est laboriosam. </p>
         </div>
