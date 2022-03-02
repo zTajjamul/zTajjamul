@@ -8,7 +8,7 @@ export default {
   },
   methods: {
     getData () {
-      return this.message
+      return this.products
     }
   },
   mounted () {

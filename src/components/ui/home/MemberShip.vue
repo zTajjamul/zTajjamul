@@ -47,6 +47,7 @@ export default {
     color: #6c757d;
     font-size: 14px;
     margin: 0px;
+    font-style: italic;
   }
   input[type=submit]{
     margin: 12px auto;

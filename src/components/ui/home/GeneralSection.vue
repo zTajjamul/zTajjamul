@@ -44,7 +44,7 @@ export default {
     .text{
       display: block;
       margin: 3% 1% 0% -9%;
-      padding: 43px 1% 14px 11%;
+      padding: 43px 1% 43px 11%;
       border: #a32221 7px solid;
       border-top-right-radius: 55px;
       border-bottom-left-radius: 55px;

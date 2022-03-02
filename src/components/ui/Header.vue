@@ -30,15 +30,28 @@
       </nav>
     </div>
   </header>
+  <PageBanner  v-if="isNotHome"  :page="getPage"/>
 </template>
 
 <script>
+import PageBanner from './Banner.vue'
 export default {
   name: 'page-header',
   data: function () {
     return {
       scrollPosition: null
     }
+  },
+  computed: {
+    isNotHome: function () {
+      return !(this.$route.path === '/')
+    },
+    getPage: function () {
+      return this.$route.path.replace(/\//g, '').toUpperCase()
+    }
+  },
+  components: {
+    PageBanner
   },
   methods: {
     updateScroll () {
