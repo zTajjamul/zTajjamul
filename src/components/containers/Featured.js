@@ -12,6 +12,6 @@ export default {
     }
   },
   mounted () {
-    this.products = Products
+    this.products = Products.filter(o => o.category === 'featured')
   }
 }

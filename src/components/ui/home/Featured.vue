@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import FeaturedCard from './FeatureCard.vue'
+import FeaturedCard from '../products/product.vue'
 import FeaturedMixin from '../../containers/Featured'
 
 export default {

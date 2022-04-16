@@ -13,7 +13,7 @@
           <input v-model="name" type="text" class="form-control" placeholder="Full name">
         </div>
         <div class="col-md-6" >
-          <input v-model="email" type="email" class="form-control" placeholder="email">
+          <input v-model="email" type="email" class="form-control" placeholder="Email">
         </div>
         <div class="col-12 mt-2">
           <textarea v-model="comment" class="form-control" placeholder="Write comment ..." rows="9"></textarea>
@@ -43,15 +43,18 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-  p{
-    color: #6c757d;
-    font-size: 14px;
-    margin: 0px;
-    font-style: italic;
-  }
-  input[type=submit]{
-    margin: 12px auto;
-    padding: 8px 50px;
-    width: fit-content;
+  section.subscribe{
+    background: #cccccc;
+    p{
+      color: #6c757d;
+      font-size: 14px;
+      margin: 0px;
+      font-style: italic;
+    }
+    input[type=submit]{
+      margin: 12px auto;
+      padding: 8px 50px;
+      width: fit-content;
+    }
   }
 </style>

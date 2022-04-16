@@ -51,5 +51,16 @@ export default {
       color: #6c757d;
       font-size: 14px;
     }
+    @media(max-width: 768px) {
+        display: block;
+        img {
+          margin: 0 auto;
+          display: block;
+          max-width: 100%;
+        }
+        .text{
+          margin: 3% 0% 0% 0%;
+        }
+    }
   }
 </style>
